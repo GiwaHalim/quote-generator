@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(images/pexels-ena-marinkovic-3599208.jpg) no-repeat center center/ cover;
+}
+
+main{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    font: 'Montserrat', sans-serif;
+    background: white;
+}
+
+main h2{
+    width: 80%;
+    background: rgb(45, 31, 31);
+    color: rgb(219, 212, 212);
+    border-radius: 3px;
+}
+.text-area{
+    margin: 15px 0;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+#person{
+    color: rgb(124, 30, 30);
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.button button{
+    background: rgb(45, 31, 31);
+    color: rgb(219, 212, 212);
+}
+
